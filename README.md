@@ -1,2 +1,2 @@
 # Crowdfunding_ETL
-Mini Project
+Mini ETL Project by Oz Garip and Mirta Lucic
