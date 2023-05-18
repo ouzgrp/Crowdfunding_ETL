@@ -9,7 +9,7 @@ Mini ETL Project by Oz Garip and Mirta Lucic
 - PgAdmin 4
 - QuickDBD
 
-#Steps used
+# Steps used
 1. Extract and transform crowdfunding and contact data from Excel files
 2. Create and export Category, Subcategory, Campaign, and Contact DataFrames and save as CSV files
 3. Design an ERD and table schema for the database in QuickDBD
