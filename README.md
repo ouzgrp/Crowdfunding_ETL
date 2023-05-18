@@ -2,7 +2,7 @@
 Mini ETL Project by Oz Garip and Mirta Lucic
 
 # Background
-    In this project, Oz and me practiced building an ETL (extract, transform and load) to process crowdfunding data from Excel files. We extracted and transformed the data, created four CSV files, and then used the CSV files to create an Entity Relationship Diagram (ERD) and a table schema. After creating tables in PostgreSQL, we impoerted all four CSV files into a PostgreSQL database.
+    In this project, Oz and me practiced building an ETL (extract, transform and load) to process crowdfunding data from Excel files. We extracted and transformed the data, created four CSV files, and then used the CSV files to create an Entity Relationship Diagram (ERD) and a table schema. After creating tables in PostgreSQL, we imported all four CSV files into a PostgreSQL database.
 
 # Resources used
 - Jupyter Notebook
