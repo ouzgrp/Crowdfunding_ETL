@@ -2,26 +2,6 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "campaign" (
-    "cf_id" int   NOT NULL,
-    "contact_id" int   NOT NULL,
-    "company_name" varchar   NOT NULL,
-    "description" varchar   NOT NULL,
-    "goal" double   NOT NULL,
-    "pledged" double   NOT NULL,
-    "outcome" varchar   NOT NULL,
-    "backers_count" int   NOT NULL,
-    "country" varchar   NOT NULL,
-    "currency" varchar   NOT NULL,
-    "launched_date" date   NOT NULL,
-    "end_date" date   NOT NULL,
-    "category_id" varchar   NOT NULL,
-    "subcategory_id" varchar   NOT NULL,
-    CONSTRAINT "pk_campaign" PRIMARY KEY (
-        "cf_id"
-     )
-);
-
 CREATE TABLE "category" (
     "category_id" varchar   NOT NULL,
     "category" varchar   NOT NULL,
@@ -45,6 +25,26 @@ CREATE TABLE "contacts" (
     "email" varchar   NOT NULL,
     CONSTRAINT "pk_contacts" PRIMARY KEY (
         "contact_id"
+     )
+);
+
+CREATE TABLE "campaign" (
+    "cf_id" int   NOT NULL,
+    "contact_id" int   NOT NULL,
+    "company_name" varchar   NOT NULL,
+    "description" varchar   NOT NULL,
+    "goal" int   NOT NULL,
+    "pledged" int   NOT NULL,
+    "outcome" varchar   NOT NULL,
+    "backers_count" int   NOT NULL,
+    "country" varchar   NOT NULL,
+    "currency" varchar   NOT NULL,
+    "launched_date" date   NOT NULL,
+    "end_date" date   NOT NULL,
+    "category_id" varchar   NOT NULL,
+    "subcategory_id" varchar   NOT NULL,
+    CONSTRAINT "pk_campaign" PRIMARY KEY (
+        "cf_id"
      )
 );
 
